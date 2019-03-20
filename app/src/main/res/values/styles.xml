@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--通用TextView样式-->
+    <style name="BTitleTextViewStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!--标题栏图的样式-->
+    <style name="BTitleImageViewStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/padding_5</item>
+    </style>
+
+    <style name="BProgressBarStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:color">@color/colorBlue</item>
+        <item name="windowActionBar">false</item><!-- 无actionBar -->
+        <item name="android:windowFrame">@null</item><!-- 是否有边框 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item><!-- 对话框是否透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->
+        <item name="android:windowContentOverlay">@null</item><!-- 对话框是否有遮盖 -->
+        <item name="android:windowBackground"> @null</item><!-- 此对话框的背景 -->
+        <item name="android:backgroundDimEnabled">false</item><!-- 否允许对话框的背景变暗 -->
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <declare-styleable name="BTitleStyleable">
+        <!--两边图片-->
+        <attr name="left_iv_visible" format="boolean|integer" />
+        <attr name="right_iv_visible" format="boolean|integer" />
+        <attr name="right_iv_image" format="integer|reference" />
+        <attr name="left_iv_image" format="integer|reference" />
+
+        <!--右边文本-->
+        <attr name="right_tv_visible" format="boolean|integer" />
+        <attr name="right_tv_font_size" format="integer" />
+        <attr name="right_tv_text" format="string" />
+        <attr name="right_tv_color" format="color" />
+        <attr name="right_tv_marginRight" format="integer" />
+        <!--左边文本 设置-->
+        <attr name="left_tv_color" format="color" />
+        <attr name="left_tv_font_size" format="integer" />
+        <attr name="left_tv_visible" format="boolean|integer" />
+        <attr name="left_tv_text" format="string" />
+        <!--中间文本-->
+        <attr name="center_tv_text" format="string" />
+        <attr name="center_tv_visible" format="boolean|integer" />
+        <attr name="center_tv_color" format="color" />
+        <attr name="center_tv_font_size" format="integer" />
+        <!--背景色-->
+        <attr name="bg_title_color" format="color" />
+
+
+    </declare-styleable>
+
+</resources>

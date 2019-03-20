@@ -1,0 +1,22 @@
+<resources>
+    <!---->
+    <dimen name="title_height">55dp</dimen>
+
+    <!--常用字体-->
+    <dimen name="font_14">14dp</dimen>
+    <dimen name="font_16">16dp</dimen>
+    <dimen name="font_18">18dp</dimen>
+    <dimen name="font_20">20dp</dimen>
+    <dimen name="font_22">22dp</dimen>
+    <dimen name="font_24">24dp</dimen>
+    <!--内间距-->
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <!--外间距-->
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+
+
+</resources>
